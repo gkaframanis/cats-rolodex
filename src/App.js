@@ -60,6 +60,7 @@ class App extends Component {
       // setState is an asynchronours function | it doesn't happen immediately as we expect it to.
       // If we want to see or do something with our state right after we set it we have to do it inside the second argument callback function we pass to setState.
       <div className="App">
+        <h1>Cats Rolodex</h1>
         <SearchBox placeholder="search breeds" handleChange={ this.handleChange } />
         <CardList breeds={filteredBreeds} />
       </div>
