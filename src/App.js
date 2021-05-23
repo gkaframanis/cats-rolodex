@@ -10,7 +10,6 @@ import "./App.css";
 // Component also gives the setState function and render().
 // We have two ways to build components: either using functions or using classes.
 // https://jsonplaceholder.typicode.com/users | to get users in JSON format, so we don't hardcode our data. (array of user objects)
-// https://api.thedogapi.com/v1/breeds?limit=10&page=0
 // We use the Component.Lifecycle methods to get the data from the above link. The Component.Lifecycle are methods that can be called
 // at different stages when this component is getting rendered. 
 
